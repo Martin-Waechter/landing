@@ -1,0 +1,20 @@
+.bandereau {
+    background-color: black;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.bandereau h1 {
+    margin: auto auto;
+    color: white;
+    font-size: 4.5vw;
+}
+
+.bandereau img {
+    width: 100px;
+}

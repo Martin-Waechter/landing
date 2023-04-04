@@ -1,0 +1,73 @@
+.inventory	{
+	width: 50%;
+	margin: 0 auto;
+	flex: 1 0 auto;
+}
+
+@media (max-width: 960px) {
+  .inventory {
+    width: 66%;
+  }
+}
+@media (max-width: 540px) {
+  .inventory {
+    width: 98%;
+  }
+}
+
+.inventory h1 {
+	text-align: center;
+	color: white;
+	background-color: rgba(20, 20, 20, 0.9);
+	margin-top: 150px;
+	margin-bottom: 25px;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.inventory ul {
+	list-style: none;
+	display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  padding-left: 0px;
+}
+
+.inventory li {
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 5px;
+	width: 20%;
+	margin: 5px;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+	color: white;
+	font-size: 17px;
+}
+
+@media (max-width: 960px) {
+  .inventory li {
+    width: 30%;
+  }
+}
+@media (max-width: 540px) {
+  .inventory li {
+    width: 45%;
+  }
+}
+
+.inventory img {
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	overflow-clip-margin: content-box;
+  width: 100%;
+}
+
+.inventory li a {
+	color: white;
+	font-size: 90%;
+	text-align: center;
+}
+
+.inventory li a:hover {
+	filter: brightness(0.5);
+}
